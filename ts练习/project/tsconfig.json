@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "./build", // 生成的所有文件放在built目录下（通过outDir）
+        "allowJs": true, // 接受JavaScript做为输入（通过allowJs）
+        "target": "ES5"  // 将JavaScript代码降级到低版本比如ECMAScript 5（通过target）
+    },
+    "include": [
+        "./src/**/*" //读取所有可识别的src目录下的文件(通过include)
+    ]
+}
